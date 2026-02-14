@@ -1,8 +1,6 @@
 # c0n73x7_c0ll4p53
 
-![Single cover for c0n73x7_c0ll4p53](./c0n73x7_c0ll4p53-cover-small.jpg)
-
-&nbsp;
+![Single cover for c0n73x7_c0ll4p53](./assets/cover.jpg)
 
 ## 🔐 Single Artwork Decryption Guide
 
@@ -17,29 +15,32 @@ To decrypt it:
    *(Yes, that's the title with a single space at the end — a mistake turned feature discovered while making this repo.)*
 5. Click **Decrypt**
 
-&nbsp;
-
-> ⚠️ **Important:** The passphrase includes a space at the end. Omitting it will cause decryption to fail.  
+> [!WARNING]
+> The passphrase includes a space at the end. Omitting it will cause decryption to fail.  
 > Make sure to copy both the encrypted text and passphrase **exactly**, with no extra characters added or missing.
-
-&nbsp;
 
 ## 💾 Files
 
 - `encrypted-text.txt` – The raw AES-encrypted string extracted from the single cover
-- `c0n73x7_c0ll4p53-cover.jpg` – Full-size single cover image (high resolution)
-- `c0n73x7_c0ll4p53-cover-small.jpg` – Reduced-size image used for preview in this README
-
-&nbsp;
+- `cover.jpg` – Full-size single cover image (high resolution)
+- `thumbnail.jpg` – Reduced-size image used for preview in this README
 
 ## 🎧 Listen
 
 - **Streaming**: Available exclusively on all major platforms (TIDAL, Apple Music, Spotify, etc.)
-- **Label**: Released by [Room40](https://room40.org)
+- **Label**: [Room40](https://room40.org)
 - **Derived from** the album [*Continuity*](https://yannnovak.bandcamp.com/album/continuity)
-
-&nbsp;
 
 ## ℹ️ About the Project
 
 The cover for the single *c0n73x7_c0ll4p53* contains an encrypted version of the description/essay that accompanies the album [*Continuity*](https://github.com/yannnovak/continuity). This guide allows fans to decrypt it without the hurdles of copying text from a JPG — and helps me embrace the accidental space that makes it a little more cryptic and imperfect.
+
+## 🌱 Repository Structure
+```
+c0n73x7_c0ll4p53/
+├── assets/
+│   ├── cover.jpg
+│   └── thumbnail.jpg
+├── README.md
+└── encrypted-text.txt
+```
