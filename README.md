@@ -35,7 +35,7 @@ To decrypt it:
 
 The cover for the single *c0n73x7_c0ll4p53* contains an encrypted version of the description/essay that accompanies the album [*Continuity*](https://github.com/yannnovak/continuity). This guide allows fans to decrypt it without the hurdles of copying text from a JPG — and helps me embrace the accidental space that makes it a little more cryptic and imperfect.
 
-## Repository Structure
+## Project Structure
 ```
 c0n73x7_c0ll4p53/
 ├── assets/
